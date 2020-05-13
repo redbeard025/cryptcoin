@@ -4,7 +4,7 @@ error_reporting(0);
 $varsession = $_SESSION['nombre'];
 
 if ($varsession == null || $varsession = '') {
-	echo 'Usted no tiene autorizacion';
+	header("location:guestuser.html");;
 	die();
 
 }
@@ -51,6 +51,8 @@ if ($varsession == null || $varsession = '') {
 
 <body class="home-2">
 
+
+
 	<!-- START PRELOADER -->
 	<div id="page-preloader">
 		<div class="theme-loader">CryptCoin.</div>
@@ -78,7 +80,7 @@ if ($varsession == null || $varsession = '') {
 					<div class="col-lg-4 col-md-12 col-sm-12 col-12">
 						<div class="info-menu">						
 						<p>Welcome to CryptCoin - Bitcoin And Crypto Currency<p>  
-							
+						<h7 style="color: orange;" > Welcome: <?php echo $_SESSION['nombre'] ?> </h7>
 						</div>
 					</div> 
 					<!-- end col -->
@@ -104,7 +106,7 @@ if ($varsession == null || $varsession = '') {
 			<div class="auto-container">
 				<div class="row">
 					<div class="col-lg-5 col-md-3 col-sm-6 col-7 mx-auto pl-0 mb-lg-0 mb-5">
-					<h7	 style="color: orange;" > Welcome: <?php echo $_SESSION['nombre'] ?> </h7>
+					
 						<div class="logo">
 							<a href="index-3.html">
 							   <img class="img-fluid" src="assets/img/loguis.png" alt="">
@@ -163,9 +165,9 @@ if ($varsession == null || $varsession = '') {
 											<li><a href="pricing.html">Our Pricing</a></li>
 											<li><a href="faq.html">FAQ</a></li>
 											<li><a href="error.html">404</a></li>
+											<li class="dropdown"><a href="service.html" class="nav-link">Services</a>
 										</ul>
 									</li>
-									<li class="dropdown"><a href="service.html" class="nav-link">Services</a>
 										<ul class="dropdown-menu">
 											<li><a href="service.html">Our All Services</a></li>
 											<li><a href="single-service.html">Bitcoin Trading</a></li>
@@ -259,11 +261,11 @@ if ($varsession == null || $varsession = '') {
 						data-easing="easeOutExpo"
 						data-splitin="none"
 						data-splitout="none"
-						data-elementdelay="0.01"
 						data-endelementdelay="0.1">
 						<a  href="#" class="btn-style btn-filled">Read More</a> &ensp;&ensp; 
 						<a href="#" class="btn-style btn-border">OUR SERVICES</a>
 					</div>
+						data-elementdelay="0.01"
 				</li>
 				<!-- SLIDE 2 -->
 				<li data-transition="slidedown" data-slotamount="1" data-masterspeed="1000" data-delay="10000"  data-saveperformance="off"  data-title="Slide Two">

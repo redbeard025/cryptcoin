@@ -130,14 +130,14 @@
 							<nav class="navbar navbar-expand-lg justify-content-left">
 								<ul class="navbar-nav">
 								   <li><a href="index-3.html" class="active nav-link">Home</a>
-										<!-- <ul class="dropdown-menu">
-											<li><a href="index-2.html">Home 1</a></li>
+										<ul class="dropdown-menu">
+											<!-- <li><a href="index-2.html">Home 1</a></li>
 											<li><a href="index-3.html">Home 2</a></li>
 											<li><a href="index-4.html">Home 3</a></li>
-											<li><a href="index-5.html">Home 4</a></li>
-										</ul> -->
+											<li><a href="index-5.html">Home 4</a></li> -->
+										</ul>
 									</li>
-									<!-- <li class="dropdown"><a class="nav-link" href="#">Pages</a>
+									<li class="dropdown"><a class="nav-link" href="#">Pages</a>
 										<ul class="dropdown-menu">
 											<li><a href="about.html">About Us</a></li>
 											<li><a href="team.html">Our Team</a></li>
@@ -156,7 +156,7 @@
 											<li><a href="single-service.html">Bitcoin & Ethereum</a></li>
 											<li><a href="single-service.html">Cryptocurrency</a></li>
 										</ul>
-									</li> -->
+									</li>
 									<li class="dropdown"><a href="service.html" class="nav-link">Shop</a>
 										<ul class="dropdown-menu">
 											<li><a href="shop.html">Our Products</a></li>
@@ -327,11 +327,11 @@
 									<i class="fa fa-dollar-sign"></i>
 								</div>
 								<div class="single-service-text">
-									<h5>Cryptocurrency Trading</h5>
+									<h5>Su hardwareya está funcionando</h5>
 								</div>
 							</div>
 							<div class="single-service-dec">
-								<p>Lorem ipsum dolor sit amet consectetur ullamco adipiscing elit, sed do eiusmod tempor exercitat incididunt ut labore.</p>
+								<p>No se complique con el montaje en su propio hogar de equipos ruidosos que desprenden mucho calor. ¡Nosotros ponemos a su disposición el hardware más rápido para la minería de Bitcoin, que ya está en funcionamiento!</p>
 							</div>	
 						</div>							
 					</div>

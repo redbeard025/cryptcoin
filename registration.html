@@ -44,8 +44,11 @@
              </div>
              <div class="card-body">
                <h5 class="card-title text-center">Register</h5>
-               <form action="procesar.php" method="post" class="form-signin">
+               <form action="procesar.php" method="post" class="form-signin" enctype="multipart/form-data">
                  <div class="form-label-group">
+                  <label for="picture">Picture:</label>
+                  <input type="file" name="picture" id="picture"><br>
+                  <input type="submit" name="submit" value="Upload">
                    <input type="text" name="nombre" id="inputUserame" class="form-control" placeholder="Username" required autofocus>
                    <label for="inputUserame">Username</label>
                  </div>

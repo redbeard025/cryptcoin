@@ -5,7 +5,6 @@ include 'cn.php';
 $nombre = $_POST ['nombre'];
 $password = $_POST ['password'];
 $_SESSION['nombre'] = $nombre;
-
 //conexion db_cryptcoinusers//
 
 $consulta="SELECT * FROM usuarios WHERE nombre='$nombre' and password='$password'";
