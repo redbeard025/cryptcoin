@@ -1,5 +1,5 @@
 <?php
-$conexion = mysqli_connect("localhost", "root", "", "db_cryptcoinusers");
+$conexion = mysqli_connect("http://cryptcoin.herokuapp.com/", "root", "", "db_cryptcoinusers");
 
 
 
