@@ -1,6 +1,6 @@
 /*
 Author       : Tech Trek.
-Template Name: Bitfonix - Bitcoin And Crypto Currency HTML Template
+Template Name: CryptCoin - Bitcoin And Crypto Currency HTML Template
 Version      : 1.0
 */
 

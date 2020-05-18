@@ -1,3 +1,22 @@
+
+<?php
+
+session_start();
+error_reporting(0);
+$varsession = $_SESSION['nombre'];
+$var1 = $email['email'];
+
+
+if ($varsession == null || $varsession = '') {
+	header("location:register.html");;
+	die();
+
+}
+
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -79,7 +98,7 @@
 					<div class="col-lg-5 col-md-3 col-sm-6 col-7 mx-auto pl-0 mb-lg-0 mb-5">
 						<div class="logo">
 							<a href="index-2.html">
-							   <img class="img-fluid" src="assets/img/logo.png" alt="">
+							   <img class="img-fluid" src="assets/img/loguis.png" alt="">
 							</a>
 						</div>
 					</div>
